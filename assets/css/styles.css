@@ -1,0 +1,24 @@
+@import url("header.css");
+@import url("index.css");
+
+body{
+    font-family: var(--font-padrao);
+    background-color: var(--azul-escuro);
+}
+
+:root{
+   --font-padrao: "Jost", san s-serif;
+
+/*cores*/
+    --azul-star:#2563eb;
+    --azul-escuro:#111828;
+    --azul-claro: #313847;
+    --azul-claro-va: #151A21;
+    --azul-linear: linear-gradient(120deg,#111828 20%,#313847 200%);
+    --gradient-text: linear-gradient(89.83deg, #2563eb 0.11%, #2EB5B5 58.65%);
+    --gradient-contato: linear-gradient(89.83deg, #2563eb 20%, #212047 200%);
+
+/*fontes*/
+    --var-web: 25px;
+    --var-titulo:35px
+}
